@@ -1,9 +1,27 @@
-main {
+body, li {
+    text-align: center;
+    background-color: #fca6c9;
+}
+
+main{
+    background-color: #fca6c9;
     position: relative;
     padding: 20px;
     color: #3e3e3e;
 }
 
+h1 {
+    color:white;
+}
+
+h1:hover {
+    background-color: #fca6c9;
+    color: black;
+}
+
+footer {
+    background-color: #fca6c9;
+}
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
@@ -11,6 +29,7 @@ body {
 }
 
 img {
-    width: 300;
-    max-width: 100%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
