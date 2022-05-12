@@ -1,6 +1,11 @@
-body, li {
+/* * {
+    border: 2px solid blue;
+} */
+
+body, ol {
     text-align: center;
     background-color: #fca6c9;
+    color: black;
 }
 
 main{
@@ -8,6 +13,7 @@ main{
     position: relative;
     padding: 20px;
     color: #3e3e3e;
+    font-weight: 750;
 }
 
 h1 {
@@ -19,17 +25,35 @@ h1:hover {
     color: black;
 }
 
+p, h2 {
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+}
+
 footer {
+    color: black;
     background-color: #fca6c9;
 }
+
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     margin: 0;
 }
 
+.quote {
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 50px;
+}
+
 img {
-    width: 80%;
+    width: 20%;
     display: block;
     margin: 0 auto;
 }
