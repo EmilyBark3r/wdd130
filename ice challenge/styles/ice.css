@@ -1,7 +1,12 @@
 body {
-    margin: 50px;
+    margin: 50px auto;
 }
 
 #circles {
     width: 80%;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid steelblue;
+    border-radius: 20px;
+    box-shadow: 15px 15px 10px rgb(183, 182, 182);
 }
