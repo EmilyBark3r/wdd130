@@ -49,6 +49,7 @@ p {
 #active, a:hover {
     background-color: white;
     color: steelblue;
+    border-radius: 5px;
 }
 
 footer p {
