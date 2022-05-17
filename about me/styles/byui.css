@@ -1,9 +1,9 @@
-    /* * {
-        border: 2px solid blue;
-    } */
-/* body { 
-    text-align: center;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body { 
+    font-family: Roboto, serif;
+}
 
 nav, footer {
     background-color: steelblue;
@@ -21,6 +21,7 @@ nav a {
 h1 {
     color: steelblue;
     text-align: center;
+    font-family: 'Rock Salt', 'Bradley Hand', cursive;
 }
 
 img {
