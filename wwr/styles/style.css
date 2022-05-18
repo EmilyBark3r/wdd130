@@ -12,6 +12,10 @@ header {
     font-family: "Tapestry";
 }
 
+main section img {
+    box-sizing: ;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -51,7 +55,7 @@ nav a:hover {
     text-align: center;
 }
 
-.book {
+.book, .join {
     background-color: #95D7AE;
     text-decoration: none;
     color: black;
@@ -61,23 +65,8 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.book:hover {
+.book:hover, .join:hover {
     background-color: #7BAE7F;
-    color: #0d67b5;
-}
-
-.join {
-    background-color: #95D7AE;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px
-}
-
-.join:hover {
-    background-color: #7BAE7F;
-    border-radius: 5px;
     color: #0d67b5;
 }
 
