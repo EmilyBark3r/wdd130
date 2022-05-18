@@ -65,6 +65,15 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.contact, .site-plan {
+    background-color: #0d67b5;
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
 .book:hover, .join:hover {
     background-color: #7BAE7F;
     color: #0d67b5;
