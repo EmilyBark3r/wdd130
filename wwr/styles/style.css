@@ -2,10 +2,12 @@
 
 body {
     background-color: #95D7AE;
+    font-size: 22px;
 }
 
 header {
     background-color: #0d67b5;
+    font-family: "Tapestry";
 }
 
 #content {
@@ -15,6 +17,7 @@ header {
 
 h4 {
     color: black;
+    font-family: "Tapestry"
 }
 
 nav a {
@@ -69,14 +72,17 @@ nav a:hover {
 
 .msg h2 {
     color: black;
+    font-family: "Display";
 }
 
 .msg p {
     color: black;
+    font-family: "Display";
 }
 
 .home-title {
     color: black;
+    font-family: "Tapestry";
 }
 
 .logo {
@@ -106,6 +112,7 @@ footer {
 
 footer h3 {
     color: black;
+    font-family: "Display";
 }
 
 footer h3:hover {
