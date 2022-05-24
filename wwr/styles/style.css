@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #0d67b5;
-    font-family: "Tapestry";
+    font-family: "Tapestry", Arial, sans-serif;
 }
 
 main section img {
@@ -27,7 +27,7 @@ h2 {
 
 h4 {
     color: black;
-    font-family: "Tapestry"
+    font-family: "Tapestry", Arial, sans-serif;
 }
 
 nav a {
@@ -87,19 +87,19 @@ nav a:hover {
 
 .msg h2 {
     color: black;
-    font-family: "Display";
+    font-family: "Display", Arial, sans-serif;;
 }
 
 .msg p {
     color: black;
-    font-family: "Display";
+    font-family: "Display", Arial, sans-serif;;
     font-size: .8em;
     padding-bottom: 15px;
 }
 
 .home-title {
     color: black;
-    font-family: "Tapestry";
+    font-family: "Tapestry", Arial, sans-serif;;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -154,7 +154,7 @@ footer {
 
 footer h3 {
     color: black;
-    font-family: "Display";
+    font-family: "Display", Arial, sans-serif;;
 }
 
 footer h3:hover {
