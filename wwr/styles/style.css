@@ -77,6 +77,11 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.book:hover, .join:hover {
+    background-color: #7BAE7F;
+    color: #0d67b5;
+}
+
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -89,11 +94,6 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-}
-
-.book:hover, .join:hover {
-    background-color: #7BAE7F;
-    color: #0d67b5;
 }
 
 .msg {
