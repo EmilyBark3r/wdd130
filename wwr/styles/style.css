@@ -79,7 +79,7 @@ nav a:hover {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10, 150px);
+    grid-template-columns: repeat(10, 100px);
 }
 
 .contact, .site-plan {
