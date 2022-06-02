@@ -68,7 +68,7 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #ccc;
+    background-color: #7BAE7F;
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -78,7 +78,7 @@ nav a:hover {
 }
 
 .book:hover, .join:hover {
-    background-color: #7BAE7F;
+    background-color: #73956F;
     color: #0d67b5;
 }
 
