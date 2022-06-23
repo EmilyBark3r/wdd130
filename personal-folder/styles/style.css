@@ -28,15 +28,18 @@ h4, .subpage-msg2 p, .subpage-msg p {
 
 nav {
     display: flex;
+    margin: auto;
     justify-content: space-around;
 }
 
-nav a {
+nav a, footer a {
     text-align: center;
     text-decoration: none;
     background-color: #82b04d;
     color: #11270B;
-    padding: 35px;
+    padding: 100px;
+    padding-bottom: 40px;
+    padding-top: 50px;
 }
 
 nav a:hover {
@@ -208,11 +211,6 @@ footer h3 {
 
 footer h3:hover {
     text-decoration: underline;
-}
-
-footer a {
-    color: #82b04d;
-    text-decoration: none;
 }
 
 footer h3 a:hover {
