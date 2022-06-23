@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #3C5A14;
+    background-color: #82b04d;
     font-family: "Tapestry", Arial, sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
@@ -34,14 +34,14 @@ nav {
 nav a {
     text-align: center;
     text-decoration: none;
-    background-color: #3C5A14;
+    background-color: #82b04d;
     color: #11270B;
     padding: 35px;
 }
 
 nav a:hover {
-    background-color: #B1B695; 
-    color: #3C5A14;
+    background-color: #EB6424; 
+    color: #11270B;
 }
 
 #hero-msg {
@@ -71,7 +71,7 @@ nav a:hover {
 }
 
 .contact, .site-plan {
-    background-color: #3C5A14;
+    background-color: #82b04d;
     text-decoration: none;
     color: #11270B;
     padding: 15px 30px;
@@ -80,7 +80,7 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #B1B695;
+    background-color: #82b04d;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -109,6 +109,7 @@ nav a:hover {
 
 .logo {
     width: 100%;
+    justify-content: space-around;
 }
 
 #logo_link {
@@ -192,7 +193,7 @@ main section {
 }
 
 footer {
-    background-color: #3C5A14;
+    background-color: #82b04d;
     padding: 30px 55px;
     margin-top: 250px; 
     display: flex;
@@ -210,12 +211,12 @@ footer h3:hover {
 }
 
 footer a {
-    color: #11270B;
+    color: #82b04d;
     text-decoration: none;
 }
 
 footer h3 a:hover {
-    background-color: #B1B695;
+    background-color: #EB6424; 
     color: #3C5A14;
 }
 
