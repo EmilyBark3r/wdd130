@@ -252,30 +252,30 @@ footer .footer-logo img {
     margin-top: 15px;
 }
 
-.subpage-river, .subpage-river2 {
+.adventure-img1, .adventure-img2 {
     box-shadow: 5px 5px 10px #6f7364;
     margin: 50px;
 }
 
-.subpage-river {
+.adventure-img1 {
     grid-column: 1/6;
     grid-row: 1/3;
     max-width: 100%;
 }
 
-.subpage-river2 {
+.adventure-img2 {
     grid-column: 6/10;
     grid-row: 4/10;
-    max-width: 100%;
+    max-width: 200%;
 }
 
-.subpage-msg {
+.adventure-msg {
     grid-column: 7/10;
     grid-row: 1/3;
     padding: 25px;
 }
 
-.subpage-msg2 {
+.adventure-msg2 {
     grid-column: 2/5;
     grid-row: 4/5;
     padding: 25px;
