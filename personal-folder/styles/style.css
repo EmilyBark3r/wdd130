@@ -246,7 +246,7 @@ footer .footer-logo img {
     justify-content: center;
 }
 
-#subpage-background {
+#adventure-background, #scenic-hikes-background {
     display: grid;
     grid-template-columns: repeat(10,1fr);
     background-color: #3C5A14;
@@ -258,20 +258,19 @@ footer .footer-logo img {
     margin: 50px;
 }
 
-.adventure-img1 {
+.adventure-img1, .scenic-hikes-img1, .scenic-hikes-img3 {
     grid-column: 1/6;
     grid-row: 1/3;
     max-width: 100%;
 }
 
-.adventure-img2 {
+.adventure-img2, .scenic-hikes-img2, .scenic-hikes-img4 {
     grid-column: 7/10;
     grid-row: 3/10;
     max-width: 200%;
-    
 }
 
-.adventure-msg {
+.adventure-msg1, .scenic-hikes-msg1, .scenic-hikes-msg3 {
     grid-column: 7/10;
     grid-row: 2/3;
     padding: 25px;
@@ -279,10 +278,42 @@ footer .footer-logo img {
     box-shadow: 5px 5px 10px #EB6424;
 }
 
-.adventure-msg2 {
+.adventure-msg2, .scenic-hikes-msg2, .scenic-hikes-msg4 {
     grid-column: 2/5;
     grid-row: 4/5;
     padding: 25px;
     color: #82b04d;
     box-shadow: 5px 5px 10px #EB6424;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Scenic Hikes */
+
+.scenic-hikes-body {
+    background-color: #3C5A14;
+}
+
+.scenic-hikes-img1, .scenic-hikes-img2, .scenic-hikes-img3, .scenic-hikes-img4 {
+    padding: 25px;
+}
+
+.scenic-hikes-msg1, .scenic-hikes-msg2, .scenic-hikes-msg3, .scenic-hikes-msg4 {
+    padding: 25px;
 }
