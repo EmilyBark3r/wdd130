@@ -310,6 +310,9 @@ footer .footer-logo img {
     background-color: #3C5A14;
 }
 
+#scenic-hikes-background {
+    padding-top: 130px;
+}
 .scenic-hikes-img1, .scenic-hikes-img2, .scenic-hikes-img3, .scenic-hikes-img4 {
     padding: 30px;
 }
@@ -327,7 +330,12 @@ footer .footer-logo img {
 .scenic-hikes-msg4 {
     grid-column: 2/6;
     grid-row: 4/5;
-    padding: 25px;
-    color: #82b04d;
-    box-shadow: 5px 5px 10px #EB6424;
+}
+
+.scenic-hikes-img1, .scenic-hikes-img3 {
+    transform: rotate(-15deg);
+}
+
+.scenic-hikes-img2, .scenic-hikes-img4{
+    transform: rotate(15deg);
 }
