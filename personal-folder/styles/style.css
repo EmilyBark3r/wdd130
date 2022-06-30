@@ -242,11 +242,11 @@ footer .footer-logo img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.seperate-color {
+.seperate-color, .seperate {
     justify-content: center;
 }
 
-#adventure-background, #scenic-hikes-background, #adventure-girls {
+#adventure-background, #scenic-hikes-background, #adventure-girls, #scenic-hikes {
     display: grid;
     grid-template-columns: repeat(10,1fr);
     background-color: #3C5A14;
