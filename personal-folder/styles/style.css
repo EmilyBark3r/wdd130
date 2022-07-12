@@ -147,7 +147,10 @@ nav a:hover {
     grid-row: 2/3;
 }
 
-.learn h2, .friends h2, .experience h2 {
+.learn h2, .friends h2, .experience h2, 
+.adventure-msg1 h2, .adventure-msg2 h2, 
+.scenic-hikes-msg1 h2, .scenic-hikes-msg2 h2, 
+.scenic-hikes-msg3 h2, .scenic-hikes-msg4 h2 {
     color: #EB6424;
 }
 
@@ -162,7 +165,10 @@ nav a:hover {
     box-shadow: 5px 5px 10px #B1B695;
 }
 
-.card-img:hover {
+.card-img:hover,.adventure-img1:hover, 
+.adventure-img2:hover, .scenic-hikes-img1:hover, 
+.scenic-hikes-img2:hover, 
+.scenic-hikes-img3:hover, .scenic-hikes-img4:hover {
     opacity: .6;
     transform: scale(1.1);
 }
@@ -270,7 +276,7 @@ footer .footer-logo img {
     grid-column: 7/10;
     grid-row: 3/4;
     box-shadow: 5px 5px 10px #B1B695;
-    color: #3C5A14;
+    color: #11270B;
 }
 
 .seperate-color, .seperate {
@@ -280,7 +286,9 @@ footer .footer-logo img {
 }
 
 .adventure-img1, .adventure-img2 {
-    box-shadow: 5px 5px 10px #B1B695;
+    border: 10px solid #EB6424;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3C5A14;
     margin: 50px;
 }
 
@@ -301,7 +309,7 @@ footer .footer-logo img {
     grid-row: 2/3;
     padding: 25px;
     color: #82b04d;
-    box-shadow: 5px 5px 10px #EB6424;
+    box-shadow: 5px 5px 10px #B1B695;
 }
 
 .adventure-msg2 {
@@ -309,7 +317,7 @@ footer .footer-logo img {
     grid-row: 4/5;
     padding: 25px;
     color: #82b04d;
-    box-shadow: 5px 5px 10px #EB6424;
+    box-shadow: 5px 5px 10px #B1B695;
 }
 
 
@@ -339,7 +347,9 @@ footer .footer-logo img {
     padding-top: 130px;
 }
 .scenic-hikes-img1, .scenic-hikes-img2, .scenic-hikes-img3, .scenic-hikes-img4 {
-    box-shadow: 5px 5px 10px #B1B695;
+    border: 10px solid #EB6424;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #3C5A14;
 }
 
 .scenic-hikes-msg1, .scenic-hikes-msg2, .scenic-hikes-msg3, .scenic-hikes-msg4 {
@@ -389,7 +399,7 @@ footer .footer-logo img {
     grid-row: 2/3;
     padding: 25px;
     color: #82b04d;
-    box-shadow: 5px 5px 10px #EB6424;
+    box-shadow: 5px 5px 10px #B1B695;
 }
 
 .scenic-hikes-msg2, .scenic-hikes-msg4 {
@@ -397,6 +407,6 @@ footer .footer-logo img {
     grid-row: 4/5;
     padding: 25px;
     color: #82b04d;
-    box-shadow: 5px 5px 10px #EB6424;
+    box-shadow: 5px 5px 10px #B1B695;
 }
 
