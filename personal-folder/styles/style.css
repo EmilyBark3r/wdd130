@@ -56,11 +56,11 @@ nav a:hover {
 #hero-msg h1 {
     text-align: center;
     font-size: 3em;
-    color: #11270B;
+    color: #EB6424;
 }
 
 #hero-msg h4 {
-    color: #11270B;
+    color: #EB6424;
     text-align: center;
 }
 
@@ -160,9 +160,9 @@ nav a:hover {
 }
 
 .card-img {
-    border: 10px solid #EB6424;
+    border: 10px solid #11270B;;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #B1B695;
+    /* box-shadow: 5px 5px 10px #B1B695; */
 }
 
 .card-img:hover,.adventure-img1:hover, 
@@ -171,6 +171,7 @@ nav a:hover {
 .scenic-hikes-img3:hover, .scenic-hikes-img4:hover {
     opacity: .6;
     transform: scale(1.1);
+    box-shadow: 5px 5px 10px #EB6424;
 }
 
 #hero-img {
@@ -276,6 +277,14 @@ footer .footer-logo img {
     grid-column: 7/10;
     grid-row: 3/4;
     box-shadow: 5px 5px 10px #B1B695;
+}
+
+.girls_msg h2 {
+    color: #EB6424;
+    text-decoration: underline;
+}
+
+.girls_msg p {
     color: #11270B;
 }
 
@@ -286,7 +295,7 @@ footer .footer-logo img {
 }
 
 .adventure-img1, .adventure-img2 {
-    border: 10px solid #EB6424;
+    border: 10px solid #11270B;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #3C5A14;
     margin: 50px;
@@ -347,7 +356,7 @@ footer .footer-logo img {
     padding-top: 130px;
 }
 .scenic-hikes-img1, .scenic-hikes-img2, .scenic-hikes-img3, .scenic-hikes-img4 {
-    border: 10px solid #EB6424;
+    border: 10px solid #11270B;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #3C5A14;
 }
