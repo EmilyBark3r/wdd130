@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #82b04d;
-    font-family: "Tapestry", Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -25,7 +25,11 @@ h2 {
 
 h4, .subpage-msg2 p, .subpage-msg p {
     color: #11270B;
-    font-family: "Tapestry", Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.subpage-msg2 p, .subpage-msg p {
+    font-family: 'Oswald', sans-serif;
 }
 
 nav {
@@ -59,6 +63,7 @@ nav a:hover {
     text-align: center;
     font-size: 3em;
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #hero-msg h4 {
@@ -95,19 +100,19 @@ nav a:hover {
 
 .msg h2 {
     color: #11270B;
-    font-family: "Display", Arial, sans-serif;;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .msg p {
     color: #11270B;
-    font-family: "Display", Arial, sans-serif;;
+    font-family: 'Oswald', sans-serif;
     font-size: .8em;
     padding-bottom: 15px;
 }
 
 .home-title, .home-title-hikes {
     color: #11270B;
-    font-family: "Tapestry", Arial, sans-serif;;
+    font-family: 'Oswald', sans-serif;
     font-size: 2em;
     margin-top: 50px;
 }
@@ -154,6 +159,7 @@ nav a:hover {
 .scenic-hikes-msg1 h2, .scenic-hikes-msg2 h2, 
 .scenic-hikes-msg3 h2, .scenic-hikes-msg4 h2 {
     color: White;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .experience {
@@ -215,7 +221,7 @@ footer {
 
 footer h3 {
     color: #11270B;
-    font-family: "Display", Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 footer h3:hover {
@@ -284,10 +290,12 @@ footer .footer-logo img {
 .girls_msg h2 {
     color: white;
     text-decoration: underline;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .girls_msg p {
     color: #11270B;
+    font-family: 'Oswald', sans-serif;
 }
 
 .seperate-color, .seperate {
@@ -321,6 +329,7 @@ footer .footer-logo img {
     padding: 25px;
     color: #B1B695;
     box-shadow: 5px 5px 10px #B1B695;
+    font-family: 'Oswald', sans-serif;
 }
 
 .adventure-msg2 {
@@ -329,6 +338,7 @@ footer .footer-logo img {
     padding: 25px;
     color: #B1B695;
     box-shadow: 5px 5px 10px #B1B695;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -414,6 +424,7 @@ footer .footer-logo img {
     padding: 25px;
     color: #B1B695;
     box-shadow: 5px 5px 10px #B1B695;
+    font-family: 'Oswald', sans-serif;
 }
 
 .scenic-hikes-msg2, .scenic-hikes-msg4 {
@@ -422,5 +433,6 @@ footer .footer-logo img {
     padding: 25px;
     color: #B1B695;
     box-shadow: 5px 5px 10px #B1B695;
+    font-family: 'Oswald', sans-serif;
 }
 
